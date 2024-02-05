@@ -1,0 +1,17 @@
+# C_Project : Clinic
+
+Our project is a doctor clinic. At the start of program you should choose one of 5 operations. 
+First is adding new patient to the system. so, you should enter all the data of patient like first and last name,
+age, gender, blood type and contact number. You also should choose examination or consultation. program will show
+the patient's id, cost and time you should go to the clinic due to your choice. note that examination cost is 200$
+for those whose age is less than or equal 12 and 300$ for more than 12.examinataion takes 20 minutes for each patient.
+But consultation has a fixed cost (150$) and it takes 15 minutes for each patient.
+Second option is printing data, you should enter the patient's id then the program will show his data. 
+Third option is deleting patient's data, you should enter his id then the program will delete it,
+so if you try to do any operation with this id the program will print "wrong id".
+Fourth option is updating patient's data, you should enter his id then his updated age and contact number then
+choose examination or consultation. For example, if patient's age is 12 and he will choose examination, the cost
+will be 200. After 1 year, if he updated his age so it will be 13, if he choose examination again the program
+will print the new cost (300$) due to updated age.
+Finally, Fifth option is Exiting program. If user choose it, the program will print the total number of patients
+and the total money they have paid, then end the program.
